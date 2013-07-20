@@ -66,7 +66,7 @@ cd $BUILD_DIR
 source $BIN_DIR/steps/hooks/pre_compile
 
 # Clone the already compiled ffmped binaries from github
-FFMPEG_BINARY="https://github.com/dzello/ffmpeg-heroku.git"
+FFMPEG_BINARY="http://dl.dropbox.com/u/24633983/ffmpeg/builds/ffmpeg-linux64-20130717.tar.bz2"
 VENDOR_FOLDER="vendor/ffmpeg"
 
 mkdir -p $BUILD_DIR/$VENDOR_FOLDER  &> /dev/null
